@@ -6,8 +6,7 @@ namespace Subjects {
         lastName: string;
     }
 
-    // Interface with the method signature
-    export interface Subject {
+  interface Subject {
         setTeacher(teacher: Teacher): void;
     }
 
