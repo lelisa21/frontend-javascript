@@ -6,11 +6,8 @@ namespace Subjects {
         lastName: string;
     }
 
-    export class Subject {
-        teacher: Teacher;
-        
-        setTeacher(teacher: Teacher): void {
-            this.teacher = teacher;
-        }
+    // INTERFACE named Subject with the required method
+    export interface Subject {
+        setTeacher(teacher: Teacher): void;
     }
 }
